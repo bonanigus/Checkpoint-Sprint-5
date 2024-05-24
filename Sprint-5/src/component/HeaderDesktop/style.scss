@@ -1,0 +1,45 @@
+
+
+header {
+ display: flex;
+ justify-content: space-between;
+ background-color: #009581;
+ height: 10rem;
+ width: 100%;
+
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 5rem;
+  align-items: center;
+  
+  ul {
+    display: flex;
+    gap: 20px;
+    li {
+      list-style: none;
+      a {
+        color: #fff;
+        font-size: 23px;
+        font-family: Inter;
+        text-decoration: none;
+      }
+    }
+  }
+ }
+}
+
+.logo{
+  img {
+   width: 10rem;
+   height: 10rem;
+  }
+
+  @media (max-width: 62.5rem) {
+   img {
+    width: 5rem;
+    height: 5rem;
+   }
+  }
+}

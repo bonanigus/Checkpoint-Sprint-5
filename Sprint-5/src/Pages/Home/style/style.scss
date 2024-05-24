@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+
+#video{
+  max-width: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+
+.video{
+  background-color: #015A4F;
+}
+
+
+.secao{
+  background-color: #015A4F;
+}
+
+.secao h2{
+  background-color: #015A4F ;
+  color: white;
+  font-size: 3rem;
+  font-weight: 300;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.secao p{
+  color: white;
+  margin: 0.5rem 1rem;
+  padding-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 2100px) {
+  .secao h2{
+    font-size: 2.5rem;
+  }
+}
+
+.sobre {
+  
+ display: flex;
+ flex-wrap: wrap;
+
+ @media screen and (max-width: 62.5rem) {
+  flex-wrap: wrap; 
+ }
+}
+
+
+.left {
+  margin-left: 49px;
+  width: 50%;
+  h1 {
+    font-family: sans-serif;
+    font-size: 4rem;
+    font-weight: 300;
+    
+//  padding: 0px 3rem;   
+  }
+  p {
+    padding:  0rem .2rem;
+    font-size: 1.3rem;
+    margin: 1rem 0rem;
+  }
+}
+
+.right {
+ 
+  img {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 650px) {
+   width: 80%;
+  }
+}
+
+.team{
+  text-align: center;
+  max-width: 100%;
+  background-color: #009581;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.produtos-cards{
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.produtos-card{
+    width: 25%;
+    margin: 15px;
+}
+
+.produtos-cartaz{
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  height: auto;
+}
+
+.team h2{
+  padding-top: 1rem;
+  color: rgb(241, 237, 237);
+  font-size: 3.5rem;
+  font-family: 'Montserrat', sans-serif;  font-weight: 500;
+}
+
+.produtos-card h3{
+  color: rgb(5, 4, 4);
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;  font-weight: 400;
+}
+.produtos-carrossel{
+  display: none;
+}
+
+
+@media screen and (max-width: 650px) {
+  .produtos-cards{
+    display: none;
+  }
+  .produtos-carrossel{
+    text-align: center;
+    display: block;
+  }
+  #img-produtos{
+    width: 50%;
+    background-color: rgb(248, 240, 240);
+    margin: 15px;
+    padding: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    height: auto;
+ }
+ #cargos{
+  margin-bottom: 1rem;
+ }
+ .team h2{
+  font-size: 2.5rem;
+  justify-content: center;
+ }
+ .team{
+  height: 80px;
+ }
+}
+
+footer {
+  background-color: #009581;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
